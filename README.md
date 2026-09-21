@@ -1,10 +1,10 @@
-# DPP Project — Data Collection, Organizing & Cleaning Pipeline
+# DPP Project - Data Collection, Organizing & Cleaning Pipeline
 
-Data preparation pipeline for the **Digital Pressure Profile (DPP)** framework — a joint KazNU–PolyU research project (P0059202) building user-generated content (UGC) based tourism pressure indicators for three Central Asian national parks:
+Data preparation pipeline for the **Digital Pressure Profile (DPP)** framework - a joint KazNU–PolyU research project (P0059202) building user-generated content (UGC) based tourism pressure indicators for three Central Asian national parks:
 
 - **Ile-Alatau** (Kazakhstan)
 - **Ala-Archa** (Kyrgyzstan)
-- **Ugam-Chatkal** (Uzbekistan/Kazakhstan border region)
+- **Ugam-Chatkal** (Uzbekistan)
 
 This repository contains the scripts used to collect, organize, clean, and deduplicate UGC data across multiple platforms into a validated dataset ready for DPP model integration. It supports the *DPP Data Preparation and Integration Report* deliverable (Task 3).
 
