@@ -1,6 +1,6 @@
-# DPP Project — Data Collection, Organizing & Cleaning Pipeline
+# DPP Project - Data Collection, Organizing & Cleaning Pipeline
 
-Data preparation pipeline for the **Digital Pressure Profile (DPP)** framework — a joint KazNU–PolyU research project (P0059202) building user-generated content (UGC) based tourism pressure indicators for three Central Asian national parks:
+Data preparation pipeline for the **Digital Pressure Profile (DPP)** framework - a joint KazNU–PolyU research project (P0059202) building user-generated content (UGC) based tourism pressure indicators for three Central Asian national parks:
 
 - **Ile-Alatau** (Kazakhstan)
 - **Ala-Archa** (Kyrgyzstan)
@@ -39,7 +39,7 @@ DPP-project/
 └── 03_data_cleaning_and_deduplication.py # Date/coordinate cleaning, per-platform dedup, sentiment prep
 ```
 
-Each file consolidates several original Colab notebooks into one script per pipeline stage. All comments and descriptive text have been stripped from the code for brevity — run each section in a Colab cell to see it in its original notebook context if needed.
+Each file consolidates several original Colab notebooks into one script per pipeline stage. All comments and descriptive text have been stripped from the code for brevity - run each section in a Colab cell to see it in its original notebook context if needed.
 
 ---
 
