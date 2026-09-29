@@ -90,18 +90,18 @@ These are documented in full in the *DPP Data Preparation and Integration Report
 - **2GIS returned zero records for Ugam-Chatkal.** This reflects an absence of indexed points of interest for that park within 2GIS itself, not a collection failure.
 - **`rating_score`** is populated for 2GIS records only in this dataset (Google Maps ratings were not captured). **`likes_count`** is populated for Google Maps only. **`comments_count`** is not returned by any of the four spatiotemporal-table platforms.
 - **`scrape_timestamp`** is a batch-level value (110 distinct timestamps across 83,206 records), not a true per-record collection time.
-- Language detection (`langdetect`, in the sentiment prep step) is unreliable on short strings and can misclassify closely related languages — treat the long tail of low-frequency detected languages with caution.
+- Language detection (`langdetect`, in the sentiment prep step) is unreliable on short strings and can misclassify closely related languages - treat the long tail of low-frequency detected languages with caution.
 
 ---
 
 ## Related Deliverables
 
-- **DPP Data Preparation and Integration Report** — full methodology, variable dictionary, descriptive statistics, and validated input data documentation (Task 3 contract deliverable).
-- `spatiotemporal_pathA_1km.csv` — validated spatiotemporal dataset (25 variables).
-- `sentiment_input_table.csv` — validated sentiment input dataset (14 variables), derived from the spatiotemporal table.
+- **DPP Data Preparation and Integration Report** - full methodology, variable dictionary, descriptive statistics, and validated input data documentation (Task 3 contract deliverable).
+- `spatiotemporal_pathA_1km.csv` - validated spatiotemporal dataset (25 variables).
+- `sentiment_input_table.csv` - validated sentiment input dataset (14 variables), derived from the spatiotemporal table.
 
 ---
 
 ## Project
 
-PolyU–KazNU Centre for Sustainable Development in Central Asia — Project P0059202.
+PolyU–KazNU Centre for Sustainable Development in Central Asia - Project P0059202.
